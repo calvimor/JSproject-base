@@ -2,9 +2,9 @@ var stylus = require('gulp-stylus'),
   nib = require('nib');
 // Preprocesa archivos Stylus a CSS y recarga los cambios
 gulp.task('css', function() {
-  gulp.src('./app/stylesheets/main.styl')
+  gulp.src('./app/css/main.styl')
     .pipe(stylus({ use: nib() }))
-    .pipe(gulp.dest('./app/stylesheets'))
+    .pipe(gulp.dest('./app/css'))
     .pipe(connect.reload());
 });
 
@@ -18,7 +18,7 @@ gulp.task('html', function() {
 // y lanza las tareas relacionadas
 gulp.task('watch', function() {
   gulp.watch(['./app/**/*.html'], ['html']);
-  gulp.watch(['./app/stylesheets/**/*.styl'], ['css']);
+  gulp.watch(['./app/css/**/*.styl'], ['css']);
 });
 
 gulp.task('default', ['server', 'watch']);
