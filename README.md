@@ -17,7 +17,7 @@ project/<br>
 |-- .jshintrc
   
 
-<h3>Pasos</h3>
+<h3>Pasos de automatización GULP</h3>
 <ul>
   <li>Instalar node: <code>npm install -g gulp</code> y gulp: <code>npm install -g bower</code> a nivel global</li>
   <li>Descargar y descomprimir</li>
@@ -36,13 +36,24 @@ project/<br>
       <li><code>npm install --save-dev jshint-stylish</code></li>
       <li><code>npm install --save-dev gulp-inject</code></li>
       <li><code>npm install --save-dev wiredep</code></li>
-      <li><code>bower install --save angular</code></li>
-      <li><code>bower install --save bootstrap</code></li>
-      <li><code>[...]</code></li>
+      <li><code>gulp</code></li>
       <li>
     </ul>
   </li>
 </ul>
+<p>
+Este último comando gulp inicia el servidor en http://localhost:8080 y las tareas definidas en Gulpfile.js
+Ahora se abre otra consola para instalar las librerías con bower y podemos ver que se agregan a bower.json y en el index.html gracias a las tareas gulp.
+</p>
+<h3>Bower</h3>
+<ul>
+  <li><code>bower install --save bootstrap</code></li>
+  <li><code>bower install --save angular</code></li>
+  <li><code>bower install --save angular-ui-router</code></li>
+</ul>
 
+<p>Si nos hemos equivocado, y no requerimos de alguna librería que hemos instalado, se puede eliminar con
+<strong>uninstall</strong>, ejemplo:
+<code>bower uninstall --save angular</code></p>
 <h3>Referencias</h3>
 Basado en la guía "DESARROLLO WEB ÁGIL CON ANGULAR de Carlos Azaustre
