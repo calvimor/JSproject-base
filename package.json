@@ -1,0 +1,20 @@
+{
+  "name": "Base frotend-project",
+  "version": "0.0.1",
+  "description": "Base para desarrollo de aplicación web con JavaScript",
+  "bugs": {
+    "url": "https://github.com/calvimor/JSproject-base/issues",
+    "email": "calvimor@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Carlos Villamizar",
+    "email": "calvimor@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/calvimor/JSproject-base"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
