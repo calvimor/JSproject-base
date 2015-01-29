@@ -1,5 +1,5 @@
 {
-  "name": "Base frotend-project",
+  "name": "frotend-project",
   "version": "0.0.1",
   "description": "Base para desarrollo de aplicación web con JavaScript",
   "bugs": {
@@ -11,7 +11,7 @@
     "name": "Carlos Villamizar",
     "email": "calvimor@gmail.com"
   },
-  "main": "gulpfile.js",
+  "main": "Gulpfile.js",
   "scripts": {
     "prepublish": "bower install",
     "start": "gulp",
@@ -47,13 +47,5 @@
     "jshint-stylish": "^1.0.0",
     "nib": "^1.0.4",
     "wiredep": "^1.8.6"
-    "karma": "~0.12.21",
-    "karma-chrome-launcher": "~0.1.4",
-    "karma-cli": "0.0.4",
-    "karma-coffee-preprocessor": "~0.2.1",
-    "karma-jasmine": "~0.2.2",
-    "pretty-hrtime": "~0.2.2",
-    "vinyl-source-stream": "~1.0.0",
-    "watchify": "~2.0.0"
   }
 }
