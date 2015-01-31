@@ -10,6 +10,7 @@
   ],
   "description": "Base para desarrollo de aplicación web con JavaScript",
   "dependencies": {
-    "bootstrap": "~3.3.2"
+    "bootstrap": "~3.3.2",
+    "angular": "~1.3.11"
   }
 }
